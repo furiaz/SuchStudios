@@ -18,7 +18,7 @@ public class PlayerAttributes : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col){
 	
-		if (col.gameObject.name == "tiroInimigo") {
+		if (col.gameObject.name == "tiroInimigo(Clone)") {
 			vidas--;
 			Destroy(col.gameObject);
 		}

@@ -5,7 +5,7 @@ public class PlayerControllerScript : MonoBehaviour {
 
 	private const float speed = 5.0f;
 	public GameObject tiroJogador;
-	public bool disparando = false;
+	private bool disparando = false;
 
 
 	// Use this for initialization
