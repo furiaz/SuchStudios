@@ -18,7 +18,7 @@ public class EnemyCollisionChecker : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.name == "tiroJogador(Clone)") {
 			Destroy(gameObject);
-			Destroy(collision.gameObject);
+			Destroy(col.gameObject);
 		}
 	}
 }
